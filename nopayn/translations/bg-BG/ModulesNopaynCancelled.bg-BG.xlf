@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="bg-BG" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Вашата поръчка в %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unfortunately, we can not currently accept your purchase with this payment method. Please choose another payment option to complete your order.">
+        <source>Unfortunately, we can not currently accept your purchase with this payment method. Please choose another payment option to complete your order.</source>
+        <target>За съжаление в момента не можем да приемем вашето плащане с този метод. Моля, изберете друг начин на плащане, за да завършите поръчката.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Моля, кликнете тук, за да опитате отново.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

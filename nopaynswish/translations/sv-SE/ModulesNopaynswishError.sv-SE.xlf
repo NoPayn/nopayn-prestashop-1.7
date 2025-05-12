@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="sv-SE" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="There was an error processing your order">
+        <source>There was an error processing your order</source>
+        <target>Ett fel uppstod vid behandlingen av din beställning</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to choose another payment method.">
+        <source>Please click here to choose another payment method.</source>
+        <target>Klicka här för att välja en annan betalningsmetod.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Klicka här för att försöka igen.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Go back to the checkout page">
+        <source>Go back to the checkout page</source>
+        <target>Gå tillbaka till kassan.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

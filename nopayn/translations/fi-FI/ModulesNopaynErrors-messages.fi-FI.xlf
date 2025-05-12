@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fi-FI" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Tilauksesi kohteessa %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unexpected payment error">
+        <source>Unexpected payment error</source>
+        <target>Odottamaton maksutapahtuman virhe</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unfortunately there was a problem processing your payment.">
+        <source>Unfortunately there was a problem processing your payment.</source>
+        <target>Valitettavasti maksusi käsittelyssä tapahtui virhe.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Napsauta tästä yrittääksesi uudelleen.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

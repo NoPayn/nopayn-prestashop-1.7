@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="et-EE" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="NoPayn">
+        <source>NoPayn</source>
+        <target>NoPayn</target>
+      </trans-unit>
+      <trans-unit id="Library">
+        <source>Library</source>
+        <target>Raamatukogu</target>
+      </trans-unit>
+      <trans-unit id="Apple Pay">
+        <source>Apple Pay</source>
+        <target>Apple Pay</target>
+      </trans-unit>
+      <trans-unit id="Credit/Debit card">
+        <source>Credit/Debit card</source>
+        <target>Kreedit-/deebetkaart</target>
+      </trans-unit>
+      <trans-unit id="Google Pay">
+        <source>Google Pay</source>
+        <target>Google Pay</target>
+      </trans-unit>
+      <trans-unit id="Swish">
+        <source>Swish</source>
+        <target>Swish</target>
+      </trans-unit>
+      <trans-unit id="MobilePay">
+        <source>MobilePay</source>
+        <target>MobilePay</target>
+      </trans-unit>
+      <trans-unit id="%label% %method% Reference:">
+        <source>%label% %method% Reference:</source>
+        <target>%label% %method% viide:</target>
+      </trans-unit>
+      <trans-unit id="%label% %method%">
+        <source>%label% %method%</source>
+        <target>%label% %method%</target>
+      </trans-unit>
+      <trans-unit id="Accept payments for your products using %method%">
+        <source>Accept payments for your products using %method%</source>
+        <target>Võta oma toodete eest makseid vastu, kasutades %method%</target>
+      </trans-unit>
+      <trans-unit id="Are you sure about removing these details?">
+        <source>Are you sure about removing these details?</source>
+        <target>Kas olete kindel, et soovite need andmed eemaldada?</target>
+      </trans-unit>
+      <trans-unit id="No currency has been set for this module.">
+        <source>No currency has been set for this module.</source>
+        <target>Sellele moodulile pole valuutat määratud.</target>
+      </trans-unit>
+      <trans-unit id="Pay by %label% %method%">
+        <source>Pay by %label% %method%</source>
+        <target>Maksa %label% %method% abil</target>
+      </trans-unit>
+      <trans-unit id="Your order at">
+        <source>Your order at</source>
+        <target>Teie tellimus saidil</target>
+      </trans-unit>
+      <trans-unit id="Shipping Fee">
+        <source>Shipping Fee</source>
+        <target>Saadetise tasu</target>
+      </trans-unit>
+      <trans-unit id="Settings updated">
+        <source>Settings updated</source>
+        <target>Seaded uuendatud</target>
+      </trans-unit>
+      <trans-unit id="API key should be set.">
+        <source>API key should be set.</source>
+        <target>API võti tuleb määrata.</target>
+      </trans-unit>
+      <trans-unit id="%label% Settings">
+        <source>%label% Settings</source>
+        <target>%label% seaded</target>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <target>Salvesta</target>
+      </trans-unit>
+      <trans-unit id="Resolves issue when curl.cacert path is not set in PHP.ini">
+        <source>Resolves issue when curl.cacert path is not set in PHP.ini</source>
+        <target>Lahendab probleemi, kui PHP.ini-s ei ole määratud curl.cacert rada</target>
+      </trans-unit>
+      <trans-unit id="Use cURL CA bundle">
+        <source>Use cURL CA bundle</source>
+        <target>Kasutage cURL CA komplekti</target>
+      </trans-unit>
+      <trans-unit id="API Key">
+        <source>API Key</source>
+        <target>API võti</target>
+      </trans-unit>
+      <trans-unit id="Klarna Test API Key">
+        <source>Klarna Test API Key</source>
+        <target>Klarna test API võti</target>
+      </trans-unit>
+      <trans-unit id="The Test API Key is Applicable only for Klarna. Remove when not used.">
+        <source>The Test API Key is Applicable only for Klarna. Remove when not used.</source>
+        <target>Testi API võti kehtib ainult Klarna jaoks. Eemalda, kui seda ei kasutata.</target>
+      </trans-unit>
+      <trans-unit id="Afterpay Test API Key">
+        <source>Afterpay Test API Key</source>
+        <target>Afterpay test API võti</target>
+      </trans-unit>
+      <trans-unit id="The Test API Key is Applicable only for Afterpay. Remove when not used.">
+        <source>The Test API Key is Applicable only for Afterpay. Remove when not used.</source>
+        <target>Testi API võti kehtib ainult Afterpay jaoks. Eemalda, kui seda ei kasutata.</target>
+      </trans-unit>
+      <trans-unit id="Afterpay">
+        <source>Afterpay</source>
+        <target>Afterpay</target>
+      </trans-unit>
+      <trans-unit id="Klarna Pay Later">
+        <source>Klarna Pay Later</source>
+        <target>Klarna maksa hiljem</target>
+      </trans-unit>
+      <trans-unit id="IP address(es) for testing.">
+        <source>IP address(es) for testing.</source>
+        <target>IP-aadress(id) testimiseks</target>
+      </trans-unit>
+      <trans-unit id="You can specify specific IP addresses for which %method% is visible, for example if you want to test %method% you can type IP addresses as 128.0.0.1, 255.255.255.255. If you fill in nothing, then, %method% is visible to all IP addresses.">
+        <source>You can specify specific IP addresses for which %method% is visible, for example if you want to test %method% you can type IP addresses as 128.0.0.1, 255.255.255.255. If you fill in nothing, then, %method% is visible to all IP addresses.</source>
+        <target>Saate määrata IP-aadresse, mille puhul %method% on nähtav (nt 128.0.0.1, 255.255.255.255). Kui väli jääb tühi, on %method% nähtav kõigile IP-aadressidele.</target>
+      </trans-unit>
+      <trans-unit id="Countries available for %method%.">
+        <source>Countries available for %method%.</source>
+        <target>Riigid, kus %method% on saadaval.</target>
+      </trans-unit>
+      <trans-unit id="To allow %method% to be used for any other country just add its country code (in ISO 2 standard) to the &quot;Countries available for %method%&quot; field. Example: BE, NL, FR If field is empty then %method% will be available for all countries.">
+        <source>To allow %method% to be used for any other country just add its country code (in ISO 2 standard) to the &quot;Countries available for %method%&quot; field. Example: BE, NL, FR If field is empty then %method% will be available for all countries.</source>
+        <target>Et lubada %method% kasutamist teistes riikides, lisage riigi kood (ISO 2) väljale „Riigid, kus %method% on saadaval“ (nt BE, NL, FR). Kui väli on tühi, on %method% saadaval kõigis riikides.</target>
+      </trans-unit>
+      <trans-unit id="Capture on complete">
+        <source>Capture on complete</source>
+        <target>Kinni pidama lõpetamisel</target>
+      </trans-unit>
+      <trans-unit id="Captures payment when an order is marked as complete">
+        <source>Captures payment when an order is marked as complete</source>
+        <target>Püüab makse, kui tellimus märgitakse lõpetatuks</target>
+      </trans-unit>
+      <trans-unit id="Only completed orders can be refunded.">
+        <source>Only completed orders can be refunded.</source>
+        <target>Ainult lõpetatud tellimusi saab tagastada.</target>
+      </trans-unit>
+      <trans-unit id="Refunds only possible when captured.">
+        <source>Refunds only possible when captured.</source>
+        <target>Tagasimaksed on võimalikud ainult pärast vahenduse kinnitamist.</target>
+      </trans-unit>
+      <trans-unit id="Refund order is not completed.">
+        <source>Refund order is not completed.</source>
+        <target>Tagasimakse tellimus ei ole lõpetatud.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

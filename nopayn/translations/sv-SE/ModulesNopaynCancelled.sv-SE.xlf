@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="sv-SE" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Din beställning hos %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unfortunately, we can not currently accept your purchase with this payment method. Please choose another payment option to complete your order.">
+        <source>Unfortunately, we can not currently accept your purchase with this payment method. Please choose another payment option to complete your order.</source>
+        <target>Tyvärr kan vi för närvarande inte acceptera ditt köp med denna betalningsmetod. Välj ett annat betalningsalternativ för att slutföra din beställning.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Klicka här för att försöka igen.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

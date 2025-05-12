@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="el-GR" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="NoPayn">
+        <source>NoPayn</source>
+        <target>NoPayn</target>
+      </trans-unit>
+      <trans-unit id="Library">
+        <source>Library</source>
+        <target>Βιβλιοθήκη</target>
+      </trans-unit>
+      <trans-unit id="Apple Pay">
+        <source>Apple Pay</source>
+        <target>Apple Pay</target>
+      </trans-unit>
+      <trans-unit id="Credit/Debit card">
+        <source>Credit/Debit card</source>
+        <target>Πιστωτική/Χρεωστική κάρτα</target>
+      </trans-unit>
+      <trans-unit id="Google Pay">
+        <source>Google Pay</source>
+        <target>Google Pay</target>
+      </trans-unit>
+      <trans-unit id="Swish">
+        <source>Swish</source>
+        <target>Swish</target>
+      </trans-unit>
+      <trans-unit id="MobilePay">
+        <source>MobilePay</source>
+        <target>MobilePay</target>
+      </trans-unit>
+      <trans-unit id="%label% %method% Reference:">
+        <source>%label% %method% Reference:</source>
+        <target>Αναφορά %label% %method%:</target>
+      </trans-unit>
+      <trans-unit id="%label% %method%">
+        <source>%label% %method%</source>
+        <target>%label% %method%</target>
+      </trans-unit>
+      <trans-unit id="Accept payments for your products using %method%">
+        <source>Accept payments for your products using %method%</source>
+        <target>Αποδοχή πληρωμών για τα προϊόντα σας μέσω %method%</target>
+      </trans-unit>
+      <trans-unit id="Are you sure about removing these details?">
+        <source>Are you sure about removing these details?</source>
+        <target>Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτά τα στοιχεία;</target>
+      </trans-unit>
+      <trans-unit id="No currency has been set for this module.">
+        <source>No currency has been set for this module.</source>
+        <target>Δεν έχει οριστεί συνάλλαγμα για αυτή τη μονάδα.</target>
+      </trans-unit>
+      <trans-unit id="Pay by %label% %method%">
+        <source>Pay by %label% %method%</source>
+        <target>Πληρώστε με %label% %method%</target>
+      </trans-unit>
+      <trans-unit id="Your order at">
+        <source>Your order at</source>
+        <target>Η παραγγελία σας στο</target>
+      </trans-unit>
+      <trans-unit id="Shipping Fee">
+        <source>Shipping Fee</source>
+        <target>Τέλος αποστολής</target>
+      </trans-unit>
+      <trans-unit id="Settings updated">
+        <source>Settings updated</source>
+        <target>Ρυθμίσεις ενημερώθηκαν</target>
+      </trans-unit>
+      <trans-unit id="API key should be set.">
+        <source>API key should be set.</source>
+        <target>Το κλειδί API πρέπει να οριστεί.</target>
+      </trans-unit>
+      <trans-unit id="%label% Settings">
+        <source>%label% Settings</source>
+        <target>Ρυθμίσεις %label%</target>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <target>Αποθήκευση</target>
+      </trans-unit>
+      <trans-unit id="Resolves issue when curl.cacert path is not set in PHP.ini">
+        <source>Resolves issue when curl.cacert path is not set in PHP.ini</source>
+        <target>Επιλύει το πρόβλημα όταν η διαδρομή curl.cacert δεν έχει οριστεί στο PHP.ini</target>
+      </trans-unit>
+      <trans-unit id="Use cURL CA bundle">
+        <source>Use cURL CA bundle</source>
+        <target>Χρήση πακέτου cURL CA</target>
+      </trans-unit>
+      <trans-unit id="API Key">
+        <source>API Key</source>
+        <target>Κλειδί API</target>
+      </trans-unit>
+      <trans-unit id="Klarna Test API Key">
+        <source>Klarna Test API Key</source>
+        <target>Δοκιμαστικό κλειδί API Klarna</target>
+      </trans-unit>
+      <trans-unit id="The Test API Key is Applicable only for Klarna. Remove when not used.">
+        <source>The Test API Key is Applicable only for Klarna. Remove when not used.</source>
+        <target>Το δοκιμαστικό κλειδί API ισχύει μόνο για Klarna. Διαγράψτε το αν δεν χρησιμοποιείται.</target>
+      </trans-unit>
+      <trans-unit id="Afterpay Test API Key">
+        <source>Afterpay Test API Key</source>
+        <target>Δοκιμαστικό κλειδί API Afterpay</target>
+      </trans-unit>
+      <trans-unit id="The Test API Key is Applicable only for Afterpay. Remove when not used.">
+        <source>The Test API Key is Applicable only for Afterpay. Remove when not used.</source>
+        <target>Το δοκιμαστικό κλειδί API ισχύει μόνο για Afterpay. Διαγράψτε το αν δεν χρησιμοποιείται.</target>
+      </trans-unit>
+      <trans-unit id="Afterpay">
+        <source>Afterpay</source>
+        <target>Afterpay</target>
+      </trans-unit>
+      <trans-unit id="Klarna Pay Later">
+        <source>Klarna Pay Later</source>
+        <target>Klarna Πληρώστε Αργότερα</target>
+      </trans-unit>
+      <trans-unit id="IP address(es) for testing.">
+        <source>IP address(es) for testing.</source>
+        <target>Διεύθυνση(-εις) IP για δοκιμή.</target>
+      </trans-unit>
+      <trans-unit id="You can specify specific IP addresses for which %method% is visible, for example if you want to test %method% you can type IP addresses as 128.0.0.1, 255.255.255.255. If you fill in nothing, then, %method% is visible to all IP addresses.">
+        <source>You can specify specific IP addresses for which %method% is visible, for example if you want to test %method% you can type IP addresses as 128.0.0.1, 255.255.255.255. If you fill in nothing, then, %method% is visible to all IP addresses.</source>
+        <target>Μπορείτε να ορίσετε συγκεκριμένες διευθύνσεις IP για τις οποίες είναι ορατό το %method%, π.χ. 128.0.0.1, 255.255.255.255. Εάν δεν συμπληρώσετε τίποτα, το %method% θα είναι ορατό σε όλες τις διευθύνσεις IP.</target>
+      </trans-unit>
+      <trans-unit id="Countries available for %method%.">
+        <source>Countries available for %method%.</source>
+        <target>Χώρες διαθέσιμες για %method%.</target>
+      </trans-unit>
+      <trans-unit id="To allow %method% to be used for any other country just add its country code (in ISO 2 standard) to the &quot;Countries available for %method%&quot; field. Example: BE, NL, FR If field is empty then %method% will be available for all countries.">
+        <source>To allow %method% to be used for any other country just add its country code (in ISO 2 standard) to the &quot;Countries available for %method%&quot; field. Example: BE, NL, FR If field is empty then %method% will be available for all countries.</source>
+        <target>Για να επιτρέψετε τη χρήση του %method% σε άλλες χώρες, προσθέστε τον κωδικό χώρας (ISO 2) στο πεδίο «Χώρες διαθέσιμες για %method%». Π.χ.: BE, NL, FR. Εάν το πεδίο είναι κενό, το %method% θα είναι διαθέσιμο σε όλες τις χώρες.</target>
+      </trans-unit>
+      <trans-unit id="Capture on complete">
+        <source>Capture on complete</source>
+        <target>Καταγραφή κατά την ολοκλήρωση</target>
+      </trans-unit>
+      <trans-unit id="Captures payment when an order is marked as complete">
+        <source>Captures payment when an order is marked as complete</source>
+        <target>Καταγράφει την πληρωμή όταν μια παραγγελία σημειώνεται ως ολοκληρωμένη</target>
+      </trans-unit>
+      <trans-unit id="Only completed orders can be refunded.">
+        <source>Only completed orders can be refunded.</source>
+        <target>Μόνο οι ολοκληρωμένες παραγγελίες μπορούν να επιστραφούν.</target>
+      </trans-unit>
+      <trans-unit id="Refunds only possible when captured.">
+        <source>Refunds only possible when captured.</source>
+        <target>Οι επιστροφές είναι δυνατές μόνο μετά τη δέσμευση.</target>
+      </trans-unit>
+      <trans-unit id="Refund order is not completed.">
+        <source>Refund order is not completed.</source>
+        <target>Η παραγγελία επιστροφής δεν έχει ολοκληρωθεί.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

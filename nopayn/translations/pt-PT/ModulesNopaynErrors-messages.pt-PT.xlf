@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="pt-PT" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>A sua encomenda em %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unexpected payment error">
+        <source>Unexpected payment error</source>
+        <target>Erro de pagamento inesperado</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unfortunately there was a problem processing your payment.">
+        <source>Unfortunately there was a problem processing your payment.</source>
+        <target>Infelizmente, ocorreu um problema ao processar o seu pagamento.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Clique aqui para tentar novamente.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

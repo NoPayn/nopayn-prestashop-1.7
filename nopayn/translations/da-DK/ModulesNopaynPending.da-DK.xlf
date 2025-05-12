@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="da-DK" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Din ordre hos %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="We did not receive a confirmation from your bank or card issuer.">
+        <source>We did not receive a confirmation from your bank or card issuer.</source>
+        <target>Vi modtog ikke en bekræftelse fra din bank eller kortudsteder.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="You will receive a message as soon as we have received this.">
+        <source>You will receive a message as soon as we have received this.</source>
+        <target>Du vil modtage en besked, så snart vi har modtaget bekræftelsen.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Klik her for at prøve igen.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here if you wish to try again">
+        <source>Please click here if you wish to try again</source>
+        <target>Klik her, hvis du ønsker at prøve igen</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

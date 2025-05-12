@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="el-GR" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="There was an error processing your order">
+        <source>There was an error processing your order</source>
+        <target>Παρουσιάστηκε σφάλμα κατά την επεξεργασία της παραγγελίας σας</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to choose another payment method.">
+        <source>Please click here to choose another payment method.</source>
+        <target>Πατήστε εδώ για να επιλέξετε άλλη μέθοδο πληρωμής.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Πατήστε εδώ για να προσπαθήσετε ξανά.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Go back to the checkout page">
+        <source>Go back to the checkout page</source>
+        <target>Επιστρέψτε στη σελίδα ολοκλήρωσης αγοράς.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

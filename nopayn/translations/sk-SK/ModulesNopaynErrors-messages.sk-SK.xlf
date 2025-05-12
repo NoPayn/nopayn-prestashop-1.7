@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="sk-SK" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Vaša objednávka v %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unexpected payment error">
+        <source>Unexpected payment error</source>
+        <target>Neočakávaná chyba platby</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unfortunately there was a problem processing your payment.">
+        <source>Unfortunately there was a problem processing your payment.</source>
+        <target>Bohužiaľ sa vyskytol problém pri spracovaní vašej platby.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Kliknite sem a skúste to znova.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

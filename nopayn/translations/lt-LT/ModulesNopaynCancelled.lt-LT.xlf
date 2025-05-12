@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="lt-LT" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Jūsų užsakymas %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unfortunately, we can not currently accept your purchase with this payment method. Please choose another payment option to complete your order.">
+        <source>Unfortunately, we can not currently accept your purchase with this payment method. Please choose another payment option to complete your order.</source>
+        <target>Deja, šiuo metu negalime priimti jūsų mokėjimo šiuo būdu. Pasirinkite kitą mokėjimo būdą, kad užbaigtumėte užsakymą.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Spustelėkite čia, kad bandytumėte dar kartą.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

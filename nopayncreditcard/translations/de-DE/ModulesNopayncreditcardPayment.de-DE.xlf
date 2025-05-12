@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="de-DE" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Pay by Credit/Debit card">
+        <source>Pay by Credit/Debit card</source>
+        <target>Mit Kredit-/Debitkarte bezahlen</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

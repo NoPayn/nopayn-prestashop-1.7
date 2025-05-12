@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="no-NO" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="NoPayn">
+        <source>NoPayn</source>
+        <target>NoPayn</target>
+      </trans-unit>
+      <trans-unit id="Library">
+        <source>Library</source>
+        <target>Bibliotek</target>
+      </trans-unit>
+      <trans-unit id="Apple Pay">
+        <source>Apple Pay</source>
+        <target>Apple Pay</target>
+      </trans-unit>
+      <trans-unit id="Credit/Debit card">
+        <source>Credit/Debit card</source>
+        <target>Kreditt-/debetkort</target>
+      </trans-unit>
+      <trans-unit id="Google Pay">
+        <source>Google Pay</source>
+        <target>Google Pay</target>
+      </trans-unit>
+      <trans-unit id="Swish">
+        <source>Swish</source>
+        <target>Swish</target>
+      </trans-unit>
+      <trans-unit id="MobilePay">
+        <source>MobilePay</source>
+        <target>MobilePay</target>
+      </trans-unit>
+      <trans-unit id="%label% %method% Reference:">
+        <source>%label% %method% Reference:</source>
+        <target>%label% %method% Referanse:</target>
+      </trans-unit>
+      <trans-unit id="%label% %method%">
+        <source>%label% %method%</source>
+        <target>%label% %method%</target>
+      </trans-unit>
+      <trans-unit id="Accept payments for your products using %method%">
+        <source>Accept payments for your products using %method%</source>
+        <target>Godta betalinger for produktene dine med %method%</target>
+      </trans-unit>
+      <trans-unit id="Are you sure about removing these details?">
+        <source>Are you sure about removing these details?</source>
+        <target>Er du sikker på at du vil fjerne disse detaljene?</target>
+      </trans-unit>
+      <trans-unit id="No currency has been set for this module.">
+        <source>No currency has been set for this module.</source>
+        <target>Ingen valuta er satt for denne modulen.</target>
+      </trans-unit>
+      <trans-unit id="Pay by %label% %method%">
+        <source>Pay by %label% %method%</source>
+        <target>Betal med %label% %method%</target>
+      </trans-unit>
+      <trans-unit id="Your order at">
+        <source>Your order at</source>
+        <target>Bestillingen din hos</target>
+      </trans-unit>
+      <trans-unit id="Shipping Fee">
+        <source>Shipping Fee</source>
+        <target>Fraktkostnad</target>
+      </trans-unit>
+      <trans-unit id="Settings updated">
+        <source>Settings updated</source>
+        <target>Innstillinger oppdatert</target>
+      </trans-unit>
+      <trans-unit id="API key should be set.">
+        <source>API key should be set.</source>
+        <target>API-nøkkel må angis.</target>
+      </trans-unit>
+      <trans-unit id="%label% Settings">
+        <source>%label% Settings</source>
+        <target>%label% Innstillinger</target>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <target>Lagre</target>
+      </trans-unit>
+      <trans-unit id="Resolves issue when curl.cacert path is not set in PHP.ini">
+        <source>Resolves issue when curl.cacert path is not set in PHP.ini</source>
+        <target>Løser problemet når curl.cacert-stien ikke er angitt i PHP.ini</target>
+      </trans-unit>
+      <trans-unit id="Use cURL CA bundle">
+        <source>Use cURL CA bundle</source>
+        <target>Bruk cURL CA-pakke</target>
+      </trans-unit>
+      <trans-unit id="API Key">
+        <source>API Key</source>
+        <target>API-nøkkel</target>
+      </trans-unit>
+      <trans-unit id="Klarna Test API Key">
+        <source>Klarna Test API Key</source>
+        <target>Klarna test-API-nøkkel</target>
+      </trans-unit>
+      <trans-unit id="The Test API Key is Applicable only for Klarna. Remove when not used.">
+        <source>The Test API Key is Applicable only for Klarna. Remove when not used.</source>
+        <target>Test-API-nøkkelen gjelder kun for Klarna. Fjern den når den ikke er i bruk.</target>
+      </trans-unit>
+      <trans-unit id="Afterpay Test API Key">
+        <source>Afterpay Test API Key</source>
+        <target>Afterpay test-API-nøkkel</target>
+      </trans-unit>
+      <trans-unit id="The Test API Key is Applicable only for Afterpay. Remove when not used.">
+        <source>The Test API Key is Applicable only for Afterpay. Remove when not used.</source>
+        <target>Test-API-nøkkelen gjelder kun for Afterpay. Fjern den når den ikke er i bruk.</target>
+      </trans-unit>
+      <trans-unit id="Afterpay">
+        <source>Afterpay</source>
+        <target>Afterpay</target>
+      </trans-unit>
+      <trans-unit id="Klarna Pay Later">
+        <source>Klarna Pay Later</source>
+        <target>Klarna Betal Senere</target>
+      </trans-unit>
+      <trans-unit id="IP address(es) for testing.">
+        <source>IP address(es) for testing.</source>
+        <target>IP-adresse(r) for testing.</target>
+      </trans-unit>
+      <trans-unit id="You can specify specific IP addresses for which %method% is visible, for example if you want to test %method% you can type IP addresses as 128.0.0.1, 255.255.255.255. If you fill in nothing, then, %method% is visible to all IP addresses.">
+        <source>You can specify specific IP addresses for which %method% is visible, for example if you want to test %method% you can type IP addresses as 128.0.0.1, 255.255.255.255. If you fill in nothing, then, %method% is visible to all IP addresses.</source>
+        <target>Du kan angi spesifikke IP-adresser der %method% er synlig. For eksempel, hvis du vil teste %method%, kan du skrive inn IP-adresser som 128.0.0.1, 255.255.255.255. Hvis du ikke fyller inn noe, vil %method% være synlig for alle IP-adresser.</target>
+      </trans-unit>
+      <trans-unit id="Countries available for %method%.">
+        <source>Countries available for %method%.</source>
+        <target>Land tilgjengelige for %method%.</target>
+      </trans-unit>
+      <trans-unit id="To allow %method% to be used for any other country just add its country code (in ISO 2 standard) to the &quot;Countries available for %method%&quot; field. Example: BE, NL, FR If field is empty then %method% will be available for all countries.">
+        <source>To allow %method% to be used for any other country just add its country code (in ISO 2 standard) to the &quot;Countries available for %method%&quot; field. Example: BE, NL, FR If field is empty then %method% will be available for all countries.</source>
+        <target>For å tillate at %method% brukes i andre land, legg til landets kode (i ISO 2-standard) i feltet &quot;Land tilgjengelige for %method%&quot;. Eksempel: BE, NL, FR. Hvis feltet er tomt, vil %method% være tilgjengelig for alle land.</target>
+      </trans-unit>
+      <trans-unit id="Capture on complete">
+        <source>Capture on complete</source>
+        <target>Fang ved fullføring</target>
+      </trans-unit>
+      <trans-unit id="Captures payment when an order is marked as complete">
+        <source>Captures payment when an order is marked as complete</source>
+        <target>Fanger betaling når en bestilling er merket som fullført</target>
+      </trans-unit>
+      <trans-unit id="Only completed orders can be refunded.">
+        <source>Only completed orders can be refunded.</source>
+        <target>Bare fullførte bestillinger kan refunderes.</target>
+      </trans-unit>
+      <trans-unit id="Refunds only possible when captured.">
+        <source>Refunds only possible when captured.</source>
+        <target>Refusjoner er kun mulig etter innløsning.</target>
+      </trans-unit>
+      <trans-unit id="Refund order is not completed.">
+        <source>Refund order is not completed.</source>
+        <target>Refusjonsordren er ikke fullført.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

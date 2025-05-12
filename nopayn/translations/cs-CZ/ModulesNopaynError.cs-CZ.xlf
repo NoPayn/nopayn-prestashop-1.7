@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="cs-CZ" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Vaše objednávka u %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="There was an error processing your order">
+        <source>There was an error processing your order</source>
+        <target>Při zpracování vaší objednávky došlo k chybě</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Klikněte sem a zkuste to znovu.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Go back to the checkout page">
+        <source>Go back to the checkout page</source>
+        <target>Vraťte se na stránku pokladny</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

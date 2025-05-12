@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="lv-LV" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Jūsu pasūtījums vietnē %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unexpected payment error">
+        <source>Unexpected payment error</source>
+        <target>Neplānota maksājuma kļūda</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Unfortunately there was a problem processing your payment.">
+        <source>Unfortunately there was a problem processing your payment.</source>
+        <target>Diemžēl radās problēma, apstrādājot jūsu maksājumu.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Please click here to try again.">
+        <source>Please click here to try again.</source>
+        <target>Lūdzu, noklikšķiniet šeit, lai mēģinātu vēlreiz.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

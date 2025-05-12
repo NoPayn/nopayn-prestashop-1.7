@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ro-RO" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="NoPayn">
+        <source>NoPayn</source>
+        <target>NoPayn</target>
+      </trans-unit>
+      <trans-unit id="Library">
+        <source>Library</source>
+        <target>Bibliotecă</target>
+      </trans-unit>
+      <trans-unit id="Apple Pay">
+        <source>Apple Pay</source>
+        <target>Apple Pay</target>
+      </trans-unit>
+      <trans-unit id="Credit/Debit card">
+        <source>Credit/Debit card</source>
+        <target>Card de credit/debit</target>
+      </trans-unit>
+      <trans-unit id="Google Pay">
+        <source>Google Pay</source>
+        <target>Google Pay</target>
+      </trans-unit>
+      <trans-unit id="Swish">
+        <source>Swish</source>
+        <target>Swish</target>
+      </trans-unit>
+      <trans-unit id="MobilePay">
+        <source>MobilePay</source>
+        <target>MobilePay</target>
+      </trans-unit>
+      <trans-unit id="%label% %method% Reference:">
+        <source>%label% %method% Reference:</source>
+        <target>Referință %label% %method%:</target>
+      </trans-unit>
+      <trans-unit id="%label% %method%">
+        <source>%label% %method%</source>
+        <target>%label% %method%</target>
+      </trans-unit>
+      <trans-unit id="Accept payments for your products using %method%">
+        <source>Accept payments for your products using %method%</source>
+        <target>Acceptă plăți pentru produsele tale folosind %method%</target>
+      </trans-unit>
+      <trans-unit id="Are you sure about removing these details?">
+        <source>Are you sure about removing these details?</source>
+        <target>Ești sigur că vrei să elimini aceste detalii?</target>
+      </trans-unit>
+      <trans-unit id="No currency has been set for this module.">
+        <source>No currency has been set for this module.</source>
+        <target>Nici o monedă nu a fost setată pentru acest modul.</target>
+      </trans-unit>
+      <trans-unit id="Pay by %label% %method%">
+        <source>Pay by %label% %method%</source>
+        <target>Plătește cu %label% %method%</target>
+      </trans-unit>
+      <trans-unit id="Your order at">
+        <source>Your order at</source>
+        <target>Comanda ta la</target>
+      </trans-unit>
+      <trans-unit id="Shipping Fee">
+        <source>Shipping Fee</source>
+        <target>Taxă de livrare</target>
+      </trans-unit>
+      <trans-unit id="Settings updated">
+        <source>Settings updated</source>
+        <target>Setări actualizate</target>
+      </trans-unit>
+      <trans-unit id="API key should be set.">
+        <source>API key should be set.</source>
+        <target>Cheia API trebuie setată.</target>
+      </trans-unit>
+      <trans-unit id="%label% Settings">
+        <source>%label% Settings</source>
+        <target>Setări %label%</target>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <target>Salvează</target>
+      </trans-unit>
+      <trans-unit id="Resolves issue when curl.cacert path is not set in PHP.ini">
+        <source>Resolves issue when curl.cacert path is not set in PHP.ini</source>
+        <target>Rezolvă problema când calea curl.cacert nu este setată în PHP.ini</target>
+      </trans-unit>
+      <trans-unit id="Use cURL CA bundle">
+        <source>Use cURL CA bundle</source>
+        <target>Folosește pachetul cURL CA</target>
+      </trans-unit>
+      <trans-unit id="API Key">
+        <source>API Key</source>
+        <target>Cheie API</target>
+      </trans-unit>
+      <trans-unit id="Klarna Test API Key">
+        <source>Klarna Test API Key</source>
+        <target>Cheie API de test Klarna</target>
+      </trans-unit>
+      <trans-unit id="The Test API Key is Applicable only for Klarna. Remove when not used.">
+        <source>The Test API Key is Applicable only for Klarna. Remove when not used.</source>
+        <target>Cheia API de test este valabilă doar pentru Klarna. Elimină când nu este folosită.</target>
+      </trans-unit>
+      <trans-unit id="Afterpay Test API Key">
+        <source>Afterpay Test API Key</source>
+        <target>Cheie API de test Afterpay</target>
+      </trans-unit>
+      <trans-unit id="The Test API Key is Applicable only for Afterpay. Remove when not used.">
+        <source>The Test API Key is Applicable only for Afterpay. Remove when not used.</source>
+        <target>Cheia API de test este valabilă doar pentru Afterpay. Elimină când nu este folosită.</target>
+      </trans-unit>
+      <trans-unit id="Afterpay">
+        <source>Afterpay</source>
+        <target>Afterpay</target>
+      </trans-unit>
+      <trans-unit id="Klarna Pay Later">
+        <source>Klarna Pay Later</source>
+        <target>Klarna Plătește Mai Târziu</target>
+      </trans-unit>
+      <trans-unit id="IP address(es) for testing.">
+        <source>IP address(es) for testing.</source>
+        <target>Adresă(i) IP pentru testare.</target>
+      </trans-unit>
+      <trans-unit id="You can specify specific IP addresses for which %method% is visible, for example if you want to test %method% you can type IP addresses as 128.0.0.1, 255.255.255.255. If you fill in nothing, then, %method% is visible to all IP addresses.">
+        <source>You can specify specific IP addresses for which %method% is visible, for example if you want to test %method% you can type IP addresses as 128.0.0.1, 255.255.255.255. If you fill in nothing, then, %method% is visible to all IP addresses.</source>
+        <target>Poți specifica adrese IP pentru care %method% este vizibil, de exemplu 128.0.0.1, 255.255.255.255. Dacă nu completezi nimic, %method% va fi vizibil pentru toate adresele IP.</target>
+      </trans-unit>
+      <trans-unit id="Countries available for %method%.">
+        <source>Countries available for %method%.</source>
+        <target>Țări disponibile pentru %method%.</target>
+      </trans-unit>
+      <trans-unit id="To allow %method% to be used for any other country just add its country code (in ISO 2 standard) to the &quot;Countries available for %method%&quot; field. Example: BE, NL, FR If field is empty then %method% will be available for all countries.">
+        <source>To allow %method% to be used for any other country just add its country code (in ISO 2 standard) to the &quot;Countries available for %method%&quot; field. Example: BE, NL, FR If field is empty then %method% will be available for all countries.</source>
+        <target>Pentru a permite utilizarea %method% în alte țări, adaugă codul țării (ISO 2) în câmpul „Țări disponibile pentru %method%”. Exemplu: BE, NL, FR. Dacă câmpul este gol, %method% va fi disponibil în toate țările.</target>
+      </trans-unit>
+      <trans-unit id="Capture on complete">
+        <source>Capture on complete</source>
+        <target>Înregistrează la finalizare</target>
+      </trans-unit>
+      <trans-unit id="Captures payment when an order is marked as complete">
+        <source>Captures payment when an order is marked as complete</source>
+        <target>Înregistrează plata când o comandă este marcată ca finalizată</target>
+      </trans-unit>
+      <trans-unit id="Only completed orders can be refunded.">
+        <source>Only completed orders can be refunded.</source>
+        <target>Doar comenzile finalizate pot fi rambursate.</target>
+      </trans-unit>
+      <trans-unit id="Refunds only possible when captured.">
+        <source>Refunds only possible when captured.</source>
+        <target>Rambursările sunt posibile doar după capturare.</target>
+      </trans-unit>
+      <trans-unit id="Refund order is not completed.">
+        <source>Refund order is not completed.</source>
+        <target>Comanda de rambursare nu este finalizată.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

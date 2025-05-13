@@ -14,7 +14,7 @@ Version 1.0.0
 * MySQL v5.4 and above
 
 ## Installation
-Manual installation of the PrestaShop 8 plugin using (s)FTP
+Manual installation of the PrestaShop 1.7 plugin using (s)FTP
 
 1. Upload all of the folders in the ZIP file into the Modules folder of your PrestaShop installation (no files are transferred).
 You can use an sFTP or SCP program, for example, to upload the files. There are various sFTP clients that you can download free of charge from the internet, such as WinSCP or Filezilla.

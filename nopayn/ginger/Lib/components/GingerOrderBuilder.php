@@ -67,6 +67,7 @@ class GingerOrderBuilder
         $order['webhook_url'] = $this->getWebhookURL();
         $order['transactions'][] = $this->getOrderTransactions();
         $order['order_lines'] = $this->getOrderLines($this->cart);
+        $order['expiration_period'] = 'PT5M';
 
         return $order;
     }
@@ -304,7 +305,8 @@ class GingerOrderBuilder
         return array_filter([
             'payment_method' => $this->getPaymentMethod(),
             'payment_method_details' => $this->getPaymentMethodDetails(),
-            'capture_mode' => $this->getCaptureMode()
+            'capture_mode' => $this->getCaptureMode(),
+            'expiration_period' => 'PT5M'
         ]);
     }
 

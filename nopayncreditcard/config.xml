@@ -2,7 +2,7 @@
 <module>
     <name>nopayncreditcard</name>
     <displayName><![CDATA[NoPayn - Credit/Debit Card]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0.1]]></version>
     <description><![CDATA[Accept Credit/Debit Card payments.]]></description>
     <author><![CDATA[Ginger Payments]]></author>
     <tab><![CDATA[payments_gateways]]></tab>

@@ -38,7 +38,7 @@ class GingerPlugin extends \PaymentModule
         $this->displayName = $this->trans('%label% %method%', ['%label%' => $this->label, '%method%'=>$this->method_name], 'Modules.Nopayn.Admin');
         $this->description = $this->trans('Accept payments for your products using %method%', ['%method%'=>$this->method_name], 'Modules.Nopayn.Admin');
         $this->tab = 'payments_gateways';
-        $this->version = "1.0.0";
+        $this->version = "1.0.1";
         $this->author = 'Ginger Payments';
         $this->controllers = array('payment', 'validation');
         $this->is_eu_compatible = 1;
@@ -208,7 +208,7 @@ class GingerPlugin extends \PaymentModule
         );
 
         $paymentOption = new PaymentOption;
-        $paymentOption->setCallToActionText($this->trans('Pay by %label% %method%',['%label%'=>$this->label,'%method%'=>$this->method_name], 'Modules.Nopayn.Admin'));
+        $paymentOption->setCallToActionText($this->trans('Pay by %method%',['%method%'=>$this->method_name], 'Modules.Nopayn.Admin'));
         $paymentOption->setLogo(\Media::getMediaPath(__PS_BASE_URI__.'modules/' .$this->name. '/'.$this->name.'.svg'));
         $paymentOption->setAction($this->context->link->getModuleLink($this->name, 'payment'));
         $paymentOption->setModuleName($this->name);

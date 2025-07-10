@@ -2,7 +2,7 @@
 <module>
     <name>nopaynmobilepay</name>
     <displayName><![CDATA[NoPayn - MobilePay]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0.1]]></version>
     <description><![CDATA[Accept payments in your webshop using MobilePay.]]></description>
     <author><![CDATA[Ginger Payments]]></author>
     <tab><![CDATA[payments_gateways]]></tab>

@@ -208,7 +208,8 @@ class GingerPlugin extends \PaymentModule
         );
 
         $paymentOption = new PaymentOption;
-        $paymentOption->setCallToActionText($this->trans('Pay by %method%',['%method%'=>$this->method_name], 'Modules.Nopayn.Admin'));
+        $checkoutMethodLabel = \Configuration::get('GINGER_'.strtoupper(str_replace('-','',$this->method_id)).'_LABEL');
+        $paymentOption->setCallToActionText($this->trans('Pay by %method%',['%method%'=>$checkoutMethodLabel ?: $this->method_name], 'Modules.Nopayn.Admin'));
         $paymentOption->setLogo(\Media::getMediaPath(__PS_BASE_URI__.'modules/' .$this->name. '/'.$this->name.'.svg'));
         $paymentOption->setAction($this->context->link->getModuleLink($this->name, 'payment'));
         $paymentOption->setModuleName($this->name);

@@ -67,9 +67,20 @@ class GingerOrderBuilder
         $order['webhook_url'] = $this->getWebhookURL();
         $order['transactions'][] = $this->getOrderTransactions();
         $order['order_lines'] = $this->getOrderLines($this->cart);
-        $order['expiration_period'] = 'PT5M';
+        $order['expiration_period'] = $this->getExpirationPeriod();
 
         return $order;
+    }
+
+    public function getExpirationPeriod(): string
+    {
+        $expirationPeriod = \Configuration::get('GINGER_ORDER_EXPIRATION_PERIOD');
+
+        if (isset($expirationPeriod) && ctype_digit($expirationPeriod) && $expirationPeriod > 0) {
+            return 'PT' . (int)$expirationPeriod . 'M';
+        }
+
+        return 'PT5M';
     }
 
     public function getCustomerInformation(): array
@@ -306,7 +317,7 @@ class GingerOrderBuilder
             'payment_method' => $this->getPaymentMethod(),
             'payment_method_details' => $this->getPaymentMethodDetails(),
             'capture_mode' => $this->getCaptureMode(),
-            'expiration_period' => 'PT5M'
+            'expiration_period' => $this->getExpirationPeriod()
         ]);
     }
 

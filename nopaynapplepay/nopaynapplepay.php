@@ -1,5 +1,6 @@
 <?php
 
+use Lib\components\GingerConfigurableTrait;
 use Lib\components\GingerPlugin;
 use Lib\components\GingerInstallTrait;
 use Lib\interfaces\GingerCustomFieldsOnCheckout;
@@ -12,7 +13,7 @@ require_once(\_PS_MODULE_DIR_ . 'nopayn/ginger/vendor/autoload.php');
 
 class nopaynapplepay extends GingerPlugin implements GingerCustomFieldsOnCheckout
 {
-    use GingerInstallTrait;
+    use GingerInstallTrait, GingerConfigurableTrait;
     public function __construct()
     {
         $this->name = 'nopaynapplepay';

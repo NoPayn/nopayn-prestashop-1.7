@@ -60,12 +60,19 @@ trait GingerConfigurableTrait
                 \Configuration::updateValue('GINGER_API_KEY', trim(\Tools::getValue('GINGER_API_KEY')));
                 \Configuration::updateValue('GINGER_BUNDLE_CA', \Tools::getValue('GINGER_BUNDLE_CA'));
 
+                $expirationPeriod = \Tools::getValue('GINGER_ORDER_EXPIRATION_PERIOD');
+                if (ctype_digit($expirationPeriod) && $expirationPeriod > 0 && $expirationPeriod < 360) {
+                    \Configuration::updateValue('GINGER_ORDER_EXPIRATION_PERIOD', $expirationPeriod);
+                }
+
                 if (array_key_exists('afterpay',GingerPSPConfig::GINGER_PSP_LABELS)){
                     \Configuration::updateValue('GINGER_AFTERPAY_TEST_API_KEY', trim(\Tools::getValue('GINGER_AFTERPAY_TEST_API_KEY')));
                 }
                 if (array_key_exists('klarna-pay-later',GingerPSPConfig::GINGER_PSP_LABELS)){
                     \Configuration::updateValue('GINGER_KLARNAPAYLATER_TEST_API_KEY', trim(\Tools::getValue('GINGER_KLARNAPAYLATER_TEST_API_KEY')));
                 }
+            }else{
+                \Configuration::updateValue($templateForVariable.'_LABEL', trim(\Tools::getValue($templateForVariable.'_LABEL')));
             }
         }
         $this->_html .= $this->displayConfirmation($this->trans('Settings updated',[],'Modules.Nopayn.Admin'));
@@ -150,6 +157,13 @@ trait GingerConfigurableTrait
                 'name' => 'GINGER_API_KEY',
                 'required' => true
             ],
+            [
+                'type' => 'text',
+                'label' => $this->trans('Transaction Expiration Period (minutes)', [], 'Modules.Nopayn.Admin'),
+                'name' => 'GINGER_ORDER_EXPIRATION_PERIOD',
+                'required' => false,
+                'desc' => $this->trans('Set the number of minutes after which the order and transaction will automatically expire. By default order and transaction will be expired after 5 minutes', [], 'Modules.Nopayn.Admin'),
+            ],
         ];
         if (array_key_exists('afterpay', GingerPSPConfig::GINGER_PSP_LABELS)){
             $fields[] = [
@@ -176,10 +190,11 @@ trait GingerConfigurableTrait
     {
         $countryAccessValidationVar = 'GINGER_'.strtoupper(str_replace('-','',$this->method_id)).'_COUNTRY_ACCESS';
         $ipValidationVar = 'GINGER_'.strtoupper(str_replace('-','',$this->method_id)).'_SHOW_FOR_IP';
+        $paymentMethodVar = 'GINGER_'.strtoupper(str_replace('-','',$this->method_id)).'_LABEL';
 
         $methodLabel = $this->trans(GingerPSPConfig::GINGER_PSP_LABELS[$this->method_id], [], 'Modules.Nopayn.Admin');
 
-        return [
+        $fields = [
             ($this instanceof GingerIPValidation) ? [
                 'type' => 'text',
                 'label' => $this->trans('IP address(es) for testing.',[], 'Modules.Nopayn.Admin'),
@@ -215,6 +230,16 @@ trait GingerConfigurableTrait
                 )
             ] : null,
         ];
+
+        $fields[] = [
+            'type' => 'text',
+            'label' => $this->trans('Label on Checkout', ['%method%' => $methodLabel], 'Modules.Nopayn.Admin'),
+            'name' => $paymentMethodVar,
+            'required' => false,
+            'desc' => $this->trans('Set the name of the payment method as it will be shown to customers during checkout.', [], 'Modules.Nopayn.Admin')
+        ];
+
+        return array_filter($fields);
     }
 
     public function getLibraryFieldsValue()
@@ -222,6 +247,7 @@ trait GingerConfigurableTrait
         $values = [
             'GINGER_API_KEY' => \Tools::getValue('GINGER_API_KEY', \Configuration::get('GINGER_API_KEY')),
             'GINGER_BUNDLE_CA' => \Tools::getValue('GINGER_BUNDLE_CA', \Configuration::get('GINGER_BUNDLE_CA')),
+            'GINGER_ORDER_EXPIRATION_PERIOD' => \Tools::getValue('GINGER_ORDER_EXPIRATION_PERIOD', \Configuration::get('GINGER_ORDER_EXPIRATION_PERIOD')),
         ];
 
         if (array_key_exists('klarna-pay-later', GingerPSPConfig::GINGER_PSP_LABELS)) {
@@ -239,10 +265,12 @@ trait GingerConfigurableTrait
         $countryAccessValidationVar = 'GINGER_'.strtoupper(str_replace('-','',$this->method_id)).'_COUNTRY_ACCESS';
         $ipValidationVar = 'GINGER_'.strtoupper(str_replace('-','',$this->method_id)).'_SHOW_FOR_IP';
         $captureManualVar = 'GINGER_'.strtoupper(str_replace('-','',$this->method_id)).'_CAPTURE_MANUAL';
+        $paymentMethodVar = 'GINGER_'.strtoupper(str_replace('-','',$this->method_id)).'_LABEL';
 
         return [
             $ipValidationVar => ($this instanceof GingerIPValidation) ? \Tools::getValue($ipValidationVar, \Configuration::get($ipValidationVar)) : null,
             $countryAccessValidationVar => ($this instanceof GingerCountryValidation) ? \Tools::getValue($countryAccessValidationVar, \Configuration::get($countryAccessValidationVar)) : null,
+            $paymentMethodVar => \Tools::getValue($paymentMethodVar, \Configuration::get($paymentMethodVar)),
             $captureManualVar => ($this->method_id == 'credit-card' ) ? \Tools::getValue($captureManualVar, \Configuration::get($captureManualVar)) : null
 
         ];

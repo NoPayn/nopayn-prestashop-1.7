@@ -1,5 +1,6 @@
 <?php
 
+use Lib\components\GingerConfigurableTrait;
 use Lib\components\GingerInstallTrait;
 use Lib\components\GingerPlugin;
 
@@ -11,7 +12,7 @@ require_once(\_PS_MODULE_DIR_ . 'nopayn/ginger/vendor/autoload.php');
 
 class nopayngooglepay extends GingerPlugin
 {
-    use GingerInstallTrait;
+    use GingerInstallTrait, GingerConfigurableTrait;
 
     public function __construct()
     {

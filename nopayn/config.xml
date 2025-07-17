@@ -2,7 +2,7 @@
 <module>
 	<name>nopayn</name>
 	<displayName><![CDATA[NoPayn]]></displayName>
-	<version><![CDATA[1.0.1]]></version>
+	<version><![CDATA[1.0.2]]></version>
 	<description><![CDATA[Accept payments for your products using NoPayn. Install this module first]]></description>
 	<author><![CDATA[Ginger Payments]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>

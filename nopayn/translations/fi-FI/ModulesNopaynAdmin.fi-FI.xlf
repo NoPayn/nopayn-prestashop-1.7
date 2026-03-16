@@ -50,9 +50,9 @@
         <source>No currency has been set for this module.</source>
         <target>Tälle moduulille ei ole asetettu valuuttaa.</target>
       </trans-unit>
-      <trans-unit id="Pay by %label% %method%">
-        <source>Pay by %label% %method%</source>
-        <target>Maksa %label% %method% avulla</target>
+      <trans-unit id="Pay by %method%">
+        <source>Pay by %method%</source>
+        <target>Maksa %method% avulla</target>
       </trans-unit>
       <trans-unit id="Your order at">
         <source>Your order at</source>

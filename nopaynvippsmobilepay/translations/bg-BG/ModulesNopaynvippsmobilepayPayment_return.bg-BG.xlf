@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="bg-BG" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="Your order at %s">
+        <source>Your order at %s</source>
+        <target>Вашата поръчка в %s</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="Thank you for your order">
+        <source>Thank you for your order</source>
+        <target>Благодарим ви за вашата поръчка</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

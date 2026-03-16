@@ -13,3 +13,7 @@
 
 * Provided possibility to customize the expiration period in main module settings
 * Provided possibility to rename payment method labels on checkout
+
+** 1.0.3 **
+
+* Added Vipps/MobilePay payment method support

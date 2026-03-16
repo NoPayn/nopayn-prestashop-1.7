@@ -50,9 +50,9 @@
         <source>No currency has been set for this module.</source>
         <target>Ehhez a modulhoz nem lett pénznem beállítva.</target>
       </trans-unit>
-      <trans-unit id="Pay by %label% %method%">
-        <source>Pay by %label% %method%</source>
-        <target>Fizetés a(z) %label% %method% segítségével</target>
+      <trans-unit id="Pay by %method%">
+        <source>Pay by %method%</source>
+        <target>Fizetés a(z) %method% segítségével</target>
       </trans-unit>
       <trans-unit id="Your order at">
         <source>Your order at</source>

@@ -50,9 +50,9 @@
       <source>No currency has been set for this module.</source>
       <target>Aucune devise n’a été définie pour ce module.</target>
     </trans-unit>
-    <trans-unit id="Pay by %label% %method%">
-      <source>Pay by %label% %method%</source>
-      <target>Payer avec %label% %method%</target>
+    <trans-unit id="Pay by %method%">
+      <source>Pay by %method%</source>
+      <target>Payer avec %method%</target>
     </trans-unit>
     <trans-unit id="Your order at">
       <source>Your order at</source>

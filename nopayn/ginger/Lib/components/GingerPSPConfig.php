@@ -11,6 +11,7 @@ class GingerPSPConfig
         'google-pay' => 'Google Pay',
         'swish' => 'Swish',
         'mobilepay' => 'MobilePay',
+        'vipps-mobilepay' => 'Vipps/MobilePay',
     ];
 
     const PLUGIN_NAME = 'nopayn-prestashop-1.7';

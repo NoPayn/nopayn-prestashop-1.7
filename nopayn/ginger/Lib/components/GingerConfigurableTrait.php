@@ -59,6 +59,7 @@ trait GingerConfigurableTrait
             {
                 \Configuration::updateValue('GINGER_API_KEY', trim(\Tools::getValue('GINGER_API_KEY')));
                 \Configuration::updateValue('GINGER_BUNDLE_CA', \Tools::getValue('GINGER_BUNDLE_CA'));
+                \Configuration::updateValue('GINGER_ORDER_DESCRIPTION', trim(\Tools::getValue('GINGER_ORDER_DESCRIPTION')));
 
                 $expirationPeriod = \Tools::getValue('GINGER_ORDER_EXPIRATION_PERIOD');
                 if (ctype_digit($expirationPeriod) && $expirationPeriod > 0 && $expirationPeriod < 360) {
@@ -164,6 +165,13 @@ trait GingerConfigurableTrait
                 'required' => false,
                 'desc' => $this->trans('Set the number of minutes after which the order and transaction will automatically expire. By default order and transaction will be expired after 5 minutes', [], 'Modules.Nopayn.Admin'),
             ],
+            [
+                'type' => 'text',
+                'label' => $this->trans('Order description', [], 'Modules.Nopayn.Admin'),
+                'name' => 'GINGER_ORDER_DESCRIPTION',
+                'required' => false,
+                'desc' => $this->trans('Set the description sent to NoPayn for new orders. Leave empty to use the default description based on the shop name.', [], 'Modules.Nopayn.Admin'),
+            ],
         ];
         if (array_key_exists('afterpay', GingerPSPConfig::GINGER_PSP_LABELS)){
             $fields[] = [
@@ -248,6 +256,7 @@ trait GingerConfigurableTrait
             'GINGER_API_KEY' => \Tools::getValue('GINGER_API_KEY', \Configuration::get('GINGER_API_KEY')),
             'GINGER_BUNDLE_CA' => \Tools::getValue('GINGER_BUNDLE_CA', \Configuration::get('GINGER_BUNDLE_CA')),
             'GINGER_ORDER_EXPIRATION_PERIOD' => \Tools::getValue('GINGER_ORDER_EXPIRATION_PERIOD', \Configuration::get('GINGER_ORDER_EXPIRATION_PERIOD')),
+            'GINGER_ORDER_DESCRIPTION' => \Tools::getValue('GINGER_ORDER_DESCRIPTION', \Configuration::get('GINGER_ORDER_DESCRIPTION')),
         ];
 
         if (array_key_exists('klarna-pay-later', GingerPSPConfig::GINGER_PSP_LABELS)) {

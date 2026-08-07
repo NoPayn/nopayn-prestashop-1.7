@@ -38,7 +38,7 @@ class GingerPlugin extends \PaymentModule
         $this->displayName = $this->trans('%label% %method%', ['%label%' => $this->label, '%method%'=>$this->method_name], 'Modules.Nopayn.Admin');
         $this->description = $this->trans('Accept payments for your products using %method%', ['%method%'=>$this->method_name], 'Modules.Nopayn.Admin');
         $this->tab = 'payments_gateways';
-        $this->version = "1.0.3";
+        $this->version = "1.0.4";
         $this->author = 'Ginger Payments';
         $this->controllers = array('payment', 'validation');
         $this->is_eu_compatible = 1;

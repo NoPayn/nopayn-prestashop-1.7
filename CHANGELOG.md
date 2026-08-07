@@ -17,3 +17,7 @@
 ** 1.0.3 **
 
 * Added Vipps/MobilePay payment method support
+
+** 1.0.4 **
+
+* Added an optional Order description setting for new NoPayn orders while preserving the default shop-name description when left empty
